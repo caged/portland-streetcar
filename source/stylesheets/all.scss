@@ -1,0 +1,126 @@
+//= require reset
+//= require table-grid
+@charset "utf-8";
+
+body {
+  background: #27292b;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font: 12px Helvetica, sans-serif;
+}
+
+.logo {
+  text-align: center;
+  margin: 40px;
+}
+
+// maps
+
+.pdx-map {
+  position: relative;
+  background: #e5d5a5;
+  height: 400px;
+  width: 100%;
+}
+
+.street-view {
+  height: 400px;
+  background: red;
+}
+
+
+// list ui
+.ui {
+  z-index: 10;
+  background: rgba(29, 26, 19, 0.95);
+  float: right;
+  margin: 5px;
+  color: #fff;
+  border-radius: 2px;
+
+  a {
+    text-decoration: none;
+    color: #e0ad3b;
+  }
+
+  header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .stories {
+
+    li a {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// group
+
+.group {
+  position: relative;
+  margin: 20px auto 60px auto;
+  background: #f7f7f7;
+  border: 6px solid #fff;
+
+  .pic {
+    position: relative;
+    height: 600px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .pic img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .pic .info {
+    line-height: 3ex;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .date {
+    float: right;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin: 3px;
+    padding: 5px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    line-height: 3ex;
+  }
+
+  .notes {
+    color: #999;
+  }
+
+  .copyright {
+    font-style: italic;
+
+    a {
+      color: #fff;
+    }
+  }
+}

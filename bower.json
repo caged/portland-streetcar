@@ -1,0 +1,6 @@
+{
+  "name": "Portland History",
+  "dependencies": {
+    "d3": ">= 3.4"
+  }
+}
