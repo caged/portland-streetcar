@@ -17,16 +17,8 @@ body {
 
 // maps
 
-.pdx-map {
-  position: relative;
-  background: #e5d5a5;
-  height: 400px;
-  width: 100%;
-}
-
 .street-view {
-  height: 400px;
-  background: red;
+  height: 500px;
 }
 
 
@@ -71,7 +63,7 @@ body {
   position: relative;
   margin: 20px auto 60px auto;
   background: #f7f7f7;
-  border: 6px solid #fff;
+  border: 3px solid #fff;
 
   .pic {
     position: relative;
@@ -99,10 +91,11 @@ body {
 
   .date {
     float: right;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    background: rgba(255, 199, 56, 0.8);
+    color: #333;
     margin: 3px;
     padding: 5px;
+    font-weight: bold;
   }
 
   .title {
@@ -117,7 +110,7 @@ body {
   }
 
   .copyright {
-    font-style: italic;
+    font-size: 11px;
 
     a {
       color: #fff;
