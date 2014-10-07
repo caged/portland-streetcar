@@ -13,6 +13,7 @@ document.addEventListener 'DOMContentLoaded', (e) ->
     view = new google.maps.StreetViewPanorama this, {
       position: new google.maps.LatLng(lat, lon)
       pov: pov
+      mode: 'webgl'
       linksControl: false
       panControl: false
       zoomControlOptions: { style: google.maps.ZoomControlStyle.SMALL }
