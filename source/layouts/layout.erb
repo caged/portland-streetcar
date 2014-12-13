@@ -9,15 +9,14 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= data.page.title || "Portland History Project" %></title>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "vendor", "all" %>
   </head>
 
   <body class="<%= page_classes %>">
-    <header>
-      <h1 class="logo"><img src="/images/logo.png"></h1>
+    <header class="header">
+      <h1 class="logo"><img src="/images/portland.svg"></h1>
     </header>
     <%= yield %>
   </body>

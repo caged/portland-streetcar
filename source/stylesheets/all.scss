@@ -10,9 +10,35 @@ body {
   font: 12px Helvetica, sans-serif;
 }
 
-.logo {
+.header {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
-  margin: 40px;
+}
+
+.logo {
+  display: inline-block;
+
+  img {
+    height: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.subtitle {
+  float: right;
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Medula One;
+  color: #efedd2;
+  font-size: 24px;
+  vertical-align: top;
+  font-weight: normal;
+
+  &:before {
+    content: ":";
+    margin-right: 5px;
+  }
 }
 
 // maps
@@ -22,71 +48,47 @@ body {
 }
 
 
-// list ui
-.ui {
-  z-index: 10;
-  background: rgba(29, 26, 19, 0.95);
-  float: right;
-  margin: 5px;
-  color: #fff;
-  border-radius: 2px;
-
-  a {
-    text-decoration: none;
-    color: #e0ad3b;
-  }
-
-  header {
-    padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  .stories {
-
-    li a {
-      display: block;
-      padding: 10px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-
-      &:hover {
-        color: #fff;
-      }
-    }
-  }
-}
 
 // group
 
 .group {
   position: relative;
-  margin: 20px auto 60px auto;
+  margin: 20px auto;
   background: #f7f7f7;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
 
   .pic {
     position: relative;
-    height: 600px;
+    overflow: hidden;
+    height: 100vh;
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    border-bottom: 1px solid #fff;
+    background-color: #333;
   }
 
   .pic img {
-    max-width: 100%;
+    background-color: #333;
     max-height: 100%;
   }
 
   .pic .info {
+    transition: bottom .5s;
     line-height: 3ex;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    bottom: 0;
+    bottom: -200px;
     left: 0;
     right: 0;
+    background: rgba(255, 199, 56, 0.8);
+    color: #111;
+  }
+
+  .pic:hover .info {
+    bottom: 0;
   }
 
   .date {
@@ -106,7 +108,7 @@ body {
   }
 
   .notes {
-    color: #999;
+    color: #333;
   }
 
   .copyright {
