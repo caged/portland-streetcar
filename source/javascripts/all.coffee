@@ -16,5 +16,6 @@ document.addEventListener 'DOMContentLoaded', (e) ->
       mode: 'webgl'
       linksControl: false
       panControl: false
+      scrollwheel: false
       zoomControlOptions: { style: google.maps.ZoomControlStyle.SMALL }
     }

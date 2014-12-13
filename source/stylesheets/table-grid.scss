@@ -10,7 +10,7 @@
 
 /* Holds and centers the site content */
 .container {
-  max-width: 96vw;
+  max-width: 100vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -26,6 +26,7 @@
     display: table;
     width: 100%;
     table-layout: fixed;
+    position: relative;
   }
 
   /* Add `.col` for the table cells, or columns */

@@ -1,4 +1,5 @@
 //= require reset
+//= require fonts
 //= require table-grid
 @charset "utf-8";
 
@@ -11,6 +12,9 @@ body {
 }
 
 .header {
+  display: none;
+  position: fixed;
+  z-index: 9999;
   padding: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -41,10 +45,79 @@ body {
   }
 }
 
+// coverscreen
+
+.coverscreen {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+  .coverscreen-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .credit {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+  }
+
+  .credit a {
+    font-family: LeHavreLayers-Primary;
+    letter-spacing: -0.1em;
+    font-size: 16px;
+    color: #333;
+    text-shadow: none;
+    text-decoration: none;
+  }
+
+  .main-title {
+    font-size: 120px;
+    font-family: LeHavreLayers-CntrRev;
+    letter-spacing: -0.1em;
+    font-weight: normal;
+
+    .of {
+      display: block;
+      font-size: 50px;
+      font-weight: normal;
+      font-family: LeHavreLayers-DblLine;
+      letter-spacing: 0.0em;
+      color: rgba(255, 199, 56, 1);
+    }
+  }
+
+  .main-subtitle {
+    font-size: 30px;
+    font-family: LeHavreLayers-DblLine;
+    color: rgba(255, 199, 56, 1);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: 1em;
+  }
+}
+
 // maps
 
 .street-view {
-  height: 500px;
+  position: relative;
+  height: 100vh;
+}
+
+.then-now {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: -14px;
+  z-index: 9999;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #aaa;
 }
 
 
@@ -53,18 +126,16 @@ body {
 
 .group {
   position: relative;
-  margin: 20px auto;
   background: #f7f7f7;
-  border: 1px solid #fff;
 
   .pic {
     position: relative;
     overflow: hidden;
+    width: 100vw;
     height: 100vh;
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: contain;
-    border-bottom: 1px solid #fff;
+    background-size: cover;
     background-color: #333;
   }
 
