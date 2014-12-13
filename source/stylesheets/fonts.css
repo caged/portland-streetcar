@@ -1,0 +1,50 @@
+/**
+* @license
+* MyFonts Webfont Build ID 2939052, 2014-12-13T12:43:55-0500
+*
+* The fonts listed in this notice are subject to the End User License
+* Agreement(s) entered into by the website owner. All other parties are
+* explicitly restricted from using the Licensed Webfonts(s).
+*
+* You may obtain a valid license at the URLs below.
+*
+* Webfont: LeHavreLayers-Centerline by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/centerline/
+*
+* Webfont: LeHavreLayers-CntrRev by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/centerline-reversed/
+*
+* Webfont: LeHavreLayers-DblLine by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/double-line/
+*
+* Webfont: LeHavreLayers-Diagonal by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/diagonal/
+*
+* Webfont: LeHavreLayers-DottedRev by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/dotted-reversed/
+*
+* Webfont: LeHavreLayers-OutlineHvy by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/outline-heavy/
+*
+* Webfont: LeHavreLayers-Primary by insigne
+* URL: http://www.myfonts.com/fonts/insigne/le-havre-layers/primary/
+*
+*
+* License: http://www.myfonts.com/viewlicense?type=web&buildid=2939052
+* Licensed pageviews: 10,000
+* Webfonts copyright: Copyright (c) 2008 by Jeremy Dooley. All rights reserved.
+*
+* © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+
+@font-face {font-family: 'LeHavreLayers-Centerline';src: url('webfonts/2CD8AC_0_0.eot');src: url('webfonts/2CD8AC_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_0_0.woff2') format('woff2'),url('webfonts/2CD8AC_0_0.woff') format('woff'),url('webfonts/2CD8AC_0_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-CntrRev';src: url('webfonts/2CD8AC_1_0.eot');src: url('webfonts/2CD8AC_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_1_0.woff2') format('woff2'),url('webfonts/2CD8AC_1_0.woff') format('woff'),url('webfonts/2CD8AC_1_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-DblLine';src: url('webfonts/2CD8AC_2_0.eot');src: url('webfonts/2CD8AC_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_2_0.woff2') format('woff2'),url('webfonts/2CD8AC_2_0.woff') format('woff'),url('webfonts/2CD8AC_2_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-Diagonal';src: url('webfonts/2CD8AC_3_0.eot');src: url('webfonts/2CD8AC_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_3_0.woff2') format('woff2'),url('webfonts/2CD8AC_3_0.woff') format('woff'),url('webfonts/2CD8AC_3_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-DottedRev';src: url('webfonts/2CD8AC_4_0.eot');src: url('webfonts/2CD8AC_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_4_0.woff2') format('woff2'),url('webfonts/2CD8AC_4_0.woff') format('woff'),url('webfonts/2CD8AC_4_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-OutlineHvy';src: url('webfonts/2CD8AC_5_0.eot');src: url('webfonts/2CD8AC_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_5_0.woff2') format('woff2'),url('webfonts/2CD8AC_5_0.woff') format('woff'),url('webfonts/2CD8AC_5_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-Primary';src: url('webfonts/2CD8AC_6_0.eot');src: url('webfonts/2CD8AC_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2CD8AC_6_0.woff2') format('woff2'),url('webfonts/2CD8AC_6_0.woff') format('woff'),url('webfonts/2CD8AC_6_0.ttf') format('truetype');}
