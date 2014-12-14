@@ -80,15 +80,15 @@ table {
 
 /* @import must be at top of file, otherwise CSS will not work */
 
-@font-face {font-family: 'LeHavreLayers-Primary';src: url('/webfonts/2CD8AC_6_0.eot');src: url('/webfonts/2CD8AC_6_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_6_0.woff2') format('woff2'),url('/webfonts/2CD8AC_6_0.woff') format('woff'),url('/webfonts/2CD8AC_6_0.ttf') format('truetype');}
-@font-face {font-family: 'LeHavreLayers-DblLine';src: url('/webfonts/2CD8AC_2_0.eot');src: url('/webfonts/2CD8AC_2_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_2_0.woff2') format('woff2'),url('/webfonts/2CD8AC_2_0.woff') format('woff'),url('/webfonts/2CD8AC_2_0.ttf') format('truetype');}
-@font-face {font-family: 'LeHavreLayers-CntrRev';src: url('/webfonts/2CD8AC_1_0.eot');src: url('/webfonts/2CD8AC_1_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_1_0.woff2') format('woff2'),url('/webfonts/2CD8AC_1_0.woff') format('woff'),url('/webfonts/2CD8AC_1_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-Primary';src: url('../webfonts/2CD8AC_6_0.eot');src: url('../webfonts/2CD8AC_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_6_0.woff2') format('woff2'),url('../webfonts/2CD8AC_6_0.woff') format('woff'),url('../webfonts/2CD8AC_6_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-DblLine';src: url('../webfonts/2CD8AC_2_0.eot');src: url('../webfonts/2CD8AC_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_2_0.woff2') format('woff2'),url('../webfonts/2CD8AC_2_0.woff') format('woff'),url('../webfonts/2CD8AC_2_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-CntrRev';src: url('../webfonts/2CD8AC_1_0.eot');src: url('../webfonts/2CD8AC_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_1_0.woff2') format('woff2'),url('../webfonts/2CD8AC_1_0.woff') format('woff'),url('../webfonts/2CD8AC_1_0.ttf') format('truetype');}
 
 /*
-@font-face {font-family: 'LeHavreLayers-Centerline';src: url('/webfonts/2CD8AC_0_0.eot');src: url('/webfonts/2CD8AC_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_0_0.woff2') format('woff2'),url('/webfonts/2CD8AC_0_0.woff') format('woff'),url('/webfonts/2CD8AC_0_0.ttf') format('truetype');}
-@font-face {font-family: 'LeHavreLayers-Diagonal';src: url('/webfonts/2CD8AC_3_0.eot');src: url('/webfonts/2CD8AC_3_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_3_0.woff2') format('woff2'),url('/webfonts/2CD8AC_3_0.woff') format('woff'),url('/webfonts/2CD8AC_3_0.ttf') format('truetype');}
-@font-face {font-family: 'LeHavreLayers-DottedRev';src: url('/webfonts/2CD8AC_4_0.eot');src: url('/webfonts/2CD8AC_4_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_4_0.woff2') format('woff2'),url('/webfonts/2CD8AC_4_0.woff') format('woff'),url('/webfonts/2CD8AC_4_0.ttf') format('truetype');}
-@font-face {font-family: 'LeHavreLayers-OutlineHvy';src: url('/webfonts/2CD8AC_5_0.eot');src: url('/webfonts/2CD8AC_5_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/2CD8AC_5_0.woff2') format('woff2'),url('/webfonts/2CD8AC_5_0.woff') format('woff'),url('/webfonts/2CD8AC_5_0.ttf') format('truetype');}*/
+@font-face {font-family: 'LeHavreLayers-Centerline';src: url('../webfonts/2CD8AC_0_0.eot');src: url('../webfonts/2CD8AC_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_0_0.woff2') format('woff2'),url('../webfonts/2CD8AC_0_0.woff') format('woff'),url('../webfonts/2CD8AC_0_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-Diagonal';src: url('../webfonts/2CD8AC_3_0.eot');src: url('../webfonts/2CD8AC_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_3_0.woff2') format('woff2'),url('../webfonts/2CD8AC_3_0.woff') format('woff'),url('../webfonts/2CD8AC_3_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-DottedRev';src: url('../webfonts/2CD8AC_4_0.eot');src: url('../webfonts/2CD8AC_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_4_0.woff2') format('woff2'),url('../webfonts/2CD8AC_4_0.woff') format('woff'),url('../webfonts/2CD8AC_4_0.ttf') format('truetype');}
+@font-face {font-family: 'LeHavreLayers-OutlineHvy';src: url('../webfonts/2CD8AC_5_0.eot');src: url('../webfonts/2CD8AC_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2CD8AC_5_0.woff2') format('woff2'),url('../webfonts/2CD8AC_5_0.woff') format('woff'),url('../webfonts/2CD8AC_5_0.ttf') format('truetype');}*/
 /*!
  * table-grid (http://mdo.github.io/table-grid)
  * Released under MIT, (c) 2014 Mark Otto
@@ -195,51 +195,34 @@ body {
   font: 12px Helvetica, sans-serif; }
 
 /* line 14, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
-.header {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  padding: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center; }
-
-/* line 23, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
-.logo {
-  display: inline-block; }
-  /* line 26, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
-  .logo img {
-    height: 50px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
-
-/* line 32, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .footer {
   background: #111;
   padding: 20px;
   text-align: center;
   color: #555; }
-  /* line 38, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 20, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .footer a {
     color: #777; }
 
-/* line 45, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 27, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .coverscreen {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-  /* line 50, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 32, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .coverscreen .coverscreen-content {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
-  /* line 58, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 40, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .coverscreen .credit {
     position: relative;
     top: 20px;
     left: 20px;
     text-align: left; }
-  /* line 65, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 47, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .coverscreen .credit a {
     font-family: LeHavreLayers-Primary;
     letter-spacing: -0.1em;
@@ -247,13 +230,13 @@ body {
     color: #333;
     text-shadow: none;
     text-decoration: none; }
-  /* line 74, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 56, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .coverscreen .main-title {
     font-size: 120px;
     font-family: LeHavreLayers-CntrRev;
     letter-spacing: -0.1em;
     font-weight: normal; }
-    /* line 80, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+    /* line 62, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
     .coverscreen .main-title .of {
       display: block;
       font-size: 50px;
@@ -261,7 +244,7 @@ body {
       font-family: LeHavreLayers-DblLine;
       letter-spacing: 0.0em;
       color: #ffc738; }
-  /* line 90, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 72, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .coverscreen .main-subtitle {
     font-size: 30px;
     font-family: LeHavreLayers-DblLine;
@@ -269,12 +252,12 @@ body {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
     letter-spacing: 1em; }
 
-/* line 101, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 83, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .street-view {
   position: relative;
   height: 100vh; }
 
-/* line 106, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 88, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .then-now {
   position: absolute;
   left: calc(50% - 100px);
@@ -289,11 +272,11 @@ body {
   font-family: LeHavreLayers-Primary;
   box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 125, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 107, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .group {
   position: relative;
   background: #f7f7f7; }
-  /* line 129, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 111, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .pic {
     position: relative;
     overflow: hidden;
@@ -303,11 +286,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #333; }
-  /* line 140, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 122, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .pic img {
     background-color: #333;
     max-height: 100%; }
-  /* line 145, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 127, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .pic .info {
     transition: bottom .5s;
     position: absolute;
@@ -320,7 +303,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     background: rgba(255, 199, 56, 0.8);
     color: #111; }
-  /* line 161, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 143, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .date {
     float: right;
     background: rgba(255, 199, 56, 0.8);
@@ -329,7 +312,7 @@ body {
     padding: 5px;
     font-weight: bold;
     z-index: 9999; }
-  /* line 171, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 153, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .anchor {
     float: left;
     color: #fff;
@@ -340,43 +323,43 @@ body {
     text-decoration: none;
     outline: none;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
-  /* line 183, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 165, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .title {
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 5px;
     line-height: 3ex; }
-  /* line 190, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 172, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .notes {
     color: #333; }
-  /* line 194, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+  /* line 176, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
   .group .copyright {
     font-size: 11px; }
-    /* line 197, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+    /* line 179, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
     .group .copyright a {
       color: #fff; }
 
-/* line 206, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 188, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .alt-info ul {
   display: inline-block;
   position: relative;
   top: -5px; }
 
-/* line 213, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 195, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .name a {
   color: #333; }
 
-/* line 217, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 199, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .alt-info ul {
   list-style: none; }
 
-/* line 218, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 200, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .alt-info li {
   display: inline-block;
   margin: 0 5px;
   font-family: Lustria; }
 
-/* line 226, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 208, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .blog-icon-svg,
 .github-icon-svg,
 .twitter-icon-svg {
@@ -386,10 +369,10 @@ body {
   position: relative;
   top: 10px; }
 
-/* line 234, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 216, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .github-icon-svg:hover path {
   fill: #4183c4; }
 
-/* line 238, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
+/* line 220, /Users/justin/dev/me/ruby/portland-streetcar/source/stylesheets/all.scss */
 .twitter-icon-svg:hover path {
   fill: #55acee; }
