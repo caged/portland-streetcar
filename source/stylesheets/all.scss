@@ -106,13 +106,16 @@ body {
 .then-now {
   position: absolute;
   left: calc(50% - 100px);
-  top: -14px;
-  z-index: 9999;
-  width: 100px;
+  top: -12px;
   padding: 5px 10px;
+  width: 100px;
+  z-index: 9999;
+  text-align: center;
   border-radius: 2px;
-  background: rgba(0, 0, 0, 0.9);
-  color: #aaa;
+  background: #E8B351;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: LeHavreLayers-Primary;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 
