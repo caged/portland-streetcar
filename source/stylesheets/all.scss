@@ -169,6 +169,19 @@ body {
     margin: 10px;
     padding: 5px;
     font-weight: bold;
+    z-index: 9999;
+  }
+
+  .anchor {
+    float: left;
+    color: #fff;
+    z-index: 9999;
+    margin: 20px;
+    font-size: 30px;
+    font-family: LeHavreLayers-Primary;
+    text-decoration: none;
+    outline: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
   }
 
   .title {
