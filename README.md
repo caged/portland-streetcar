@@ -1,14 +1,9 @@
-### Installation
+Historical streetcar lines then and now.
+
+### Try it for yourself.
 
 ```
-git clone git@github.com:Caged/datavis-template.git ~/.middleman/data
-```
-
-### Usage
-
-```
-middleman init MY_APP_NAME --rack --template=data
-cd MY_APP_NAME
-bower install
-./script/server
+git clone https://github.com/Caged/portland-streetcar
+bundle install
+script/server
 ```
