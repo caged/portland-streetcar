@@ -11,24 +11,6 @@ body {
   font: 12px Helvetica, sans-serif;
 }
 
-.header {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  padding: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: center;
-}
-
-.logo {
-  display: inline-block;
-
-  img {
-    height: 50px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  }
-}
-
 .footer {
   background: #111;
   padding: 20px;
