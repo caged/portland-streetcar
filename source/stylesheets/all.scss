@@ -29,19 +29,14 @@ body {
   }
 }
 
-.subtitle {
-  float: right;
-  display: inline-block;
-  margin-left: 10px;
-  font-family: Medula One;
-  color: #efedd2;
-  font-size: 24px;
-  vertical-align: top;
-  font-weight: normal;
+.footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  color: #555;
 
-  &:before {
-    content: ":";
-    margin-right: 5px;
+  a {
+    color: #777;
   }
 }
 
@@ -202,4 +197,43 @@ body {
       color: #fff;
     }
   }
+}
+
+// alt info
+.alt-info {
+
+  ul {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+  }
+}
+
+.name a {
+  color: #333;
+}
+
+.alt-info ul { list-style: none; }
+.alt-info li {
+  display: inline-block;
+  margin: 0 5px;
+  font-family: Lustria;
+}
+
+.blog-icon-svg,
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 10px;
+}
+
+.github-icon-svg:hover path {
+  fill: #4183c4;
+}
+
+.twitter-icon-svg:hover path {
+  fill: #55acee;
 }
