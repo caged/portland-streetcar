@@ -4,6 +4,5 @@ Historical streetcar lines then and now.
 
 ```
 git clone https://github.com/Caged/portland-streetcar
-bundle install
-script/server
+jekyll serve
 ```

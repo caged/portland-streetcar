@@ -1,0 +1,55 @@
+- image: burnside.jpg
+  year: 1932
+  title: Intersection of West Burnside Street and Southwest 3rd Avenue before widening looking south down Southwest 3rd Avenue
+  notes: Photograph includes lighted archways, cars and trolleys, Union Theater, Union Cafe, Union Clothing Company, Winchester House, and Cut Rate Drugs. The photograph shows the effects of the widening on the people, downtown traffic, and buildings. Alberta streetcar No 41 is visible. Coca - Cola advertisement is visible.
+  lat: 45.523125
+  lon: -122.673361
+  heading: 190
+
+- image: sandy.jpg
+  year: 1934
+  title: Northeast Sandy Boulevard and 41st Avenue looking east
+  notes: "Open produce market, pedestrians, vehicles and businesses visible in image. Organization : First National Bank - Rose City Branch Keyword : Beaumont streetcar."
+  lat: 45.535511
+  lon: -122.621316
+  heading: 50
+
+- image: broadway.jpg
+  year: 1937
+  title: North Broadway at Larrabee Avenue and Interstate Avenue looking east
+  notes: "Vehicles, pedestrians and businesses visible in image. Negative : 1358.1 Organization : Clow Roofing Company ; Portland Van and Storage Company ; Heinle's Good Eats Keyword : Streetcar ; Bus ; Coca Cola sign."
+  lat: 45.533187
+  lon: -122.671690
+  heading: 50
+
+- image: sw4th.jpg
+  year: 1938
+  title: Southwest 4th Avenue looking north towards Morrison Street
+  notes: "Businesses, pedestrians and vehicles visible in image. Black and white copy of image also exists. Negative at 11 - 06 - 32 / 1. Negative : 1384 Organization : Fred Meyer Toiletries and Remedies ; Dr J J Colton - Dentist ; Chown Hardware Keyword : Streetcar."
+  lat: 45.518485
+  lon: -122.676577
+  heading: 10
+
+- image: nw19th.jpg
+  year: 1939
+  title: Northwest 19th Ave looking south at West Burnside Street
+  notes: "David Campbell Memorial at left side of photograph. Channelization and traffic islands, businesses, pedestrians and vehicles visible in image. Copy of photograph at 5 / 49, 12 - 10 - 20 / 2. Negative : 1387.2 Organization : Majestic Cleaners ; Windolph Motor Company Keyword : Streetcar - WH [Willamette Heights]"
+  lat: 45.523000
+  lon: -122.690304
+  heading: 170
+
+- image: burnside2.jpg
+  year: 1939
+  title: West Burnside Street, Southwest Alder Street and 19th Avenue looking east
+  notes: "Photograph shows completed channelizing islands in roadways. Pedestrians, vehicles and businesses visible in image. Scan : A / P 490 Negative : 1385.4 Organization : Signal Gasoline Station Keyword : Streetcar ; Majestic Cleaners sign"
+  lat: 45.523000
+  lon: -122.690304
+  heading: 100
+
+- image: sw19th.jpg
+  year: 1939
+  title: Southwest 19th Avenue, Morrison Street and 18th Avenue looking north towards West Burnside Street
+  notes: "David Campbell Memorial at center of photograph. Channelization and traffic islands, businesses and vehicles visible in image. Copy of photograph at 5 / 49, 12 - 10 - 20 / 2. Negative : 1387.3 Organization : Multnomah Market Keyword : Streetcar - WH [Willamette Heights] ; Coca Cola billboard ; Dodge billboard"
+  lat: 45.5223912
+  lon: -122.6900912
+  heading: 10

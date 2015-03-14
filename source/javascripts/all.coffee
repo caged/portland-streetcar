@@ -1,3 +1,6 @@
+---
+# this ensures Jekyll reads the file to be transformed into JS later
+---
 "use strict";
 
 document.addEventListener 'DOMContentLoaded', (e) ->

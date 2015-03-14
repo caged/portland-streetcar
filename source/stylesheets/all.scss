@@ -1,6 +1,10 @@
-//= require reset
-//= require fonts
-//= require table-grid
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+---
+@import "reset";
+@import "fonts";
+@import "table-grid";
+
 @charset "utf-8";
 
 body {
