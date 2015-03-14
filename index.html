@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+{% for group in site.data.streetcars %}
+
+  <!-- group -->
+  <div class="group" id="p{{ forloop.index }}">
+    <div class="pic" style="background-image:url(source/images/streetcar/{{ group.image }})">
+      <a class="anchor" href="#p{{ forloop.index }}">#</a>
+      <span class="date">{{ group.year }}</span>
+      <div class="info">
+        <h2 class="title">{{ group.title }}</h2>
+        <p class="notes">
+          {{ group.description }}
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="then-now">Then / Now</div>
+      <div class="js-street-view street-view" data-lat="{{ group.lat }}" data-lon="{{ group.lon }}" data-heading="{{ group.heading }}"></div>
+    </div>
+  </div>
+  <!-- /group -->
+
+{% endfor %}
